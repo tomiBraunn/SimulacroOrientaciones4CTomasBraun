@@ -38,7 +38,7 @@ public class deQueOrientacionSos : MonoBehaviour
 
         else
         {
-            Debug.Log("Solo puede ingresar T, D, G, M o H como tu especialidad.");
+            Debug.Log("Solo puede ingresar T, D, G, M o H para tu especialidad.");
             return;
         }
     }
