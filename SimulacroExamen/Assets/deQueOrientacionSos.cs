@@ -30,17 +30,13 @@ public class deQueOrientacionSos : MonoBehaviour
             return;
         }
 
-        if (especialidadAlumno == "T" || especialidadAlumno == "D" || especialidadAlumno == "G" || especialidadAlumno == "M" || especialidadAlumno == "H")
-        {
-            Debug.Log("Muchas gracias "+ nombreAlumno + "!");
-            return;
-        }
-
-        else
+        if (especialidadAlumno != "T" && especialidadAlumno != "D" && especialidadAlumno != "G" && especialidadAlumno != "M" && especialidadAlumno != "H")
         {
             Debug.Log("Solo puede ingresar T, D, G, M o H para tu especialidad.");
             return;
         }
+            
+        Debug.Log("Muchas gracias " + nombreAlumno + "!");
     }
 
     // Update is called once per frame
